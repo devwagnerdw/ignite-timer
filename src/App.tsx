@@ -1,6 +1,17 @@
+import { ThemeProvider } from 'styled-components'
+import { Button } from './components/Button'
+
+import { defaultTheme } from './components/styles/themes/default'
+import { GlobalStyle } from './components/styles/global'
+
 export function App() {
   return (
-    <h1>bem vindo</h1>
+    <ThemeProvider theme={defaultTheme}>
+      <Button />
+      <Button />
+      <Button />
+      <Button />
+      <GlobalStyle />
+    </ThemeProvider>
   )
 }
-
