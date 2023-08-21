@@ -10,6 +10,7 @@
     "lint": "eslint src --ext .ts,.tsx"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.2.0",
     "@rocketseat/eslint-config": "^2.1.0",
     "@types/styled-components": "^5.1.26",
     "phosphor-react": "^1.4.1",
@@ -17,7 +18,8 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.45.4",
     "react-router-dom": "^6.15.0",
-    "styled-components": "^6.0.7"
+    "styled-components": "^6.0.7",
+    "zod": "^3.22.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
